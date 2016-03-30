@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            
+        a,p,h1,h2,h3,h4,li,i,img,span,div{
+                margin:0px;
+                padding:0px;
+                line-height:20px;
+                font-size:16px;
+        }
+        
+        hr{
+            display:none;
+        }
+        
+        h2{
+            padding:10px 0px 2px 0px;
+            border-bottom:2px dotted rgb(28,190,133);
+            font-size:18px;
+            color:rgb(28,190,133);
+        }
+        
+        div{
+            line-height:20px;
+            padding-bottom:10px;
+        }
+        
+        img{
+            width:{{picWidth}}px;
+            height:{{picHeight}}px;
+            margin:0,auto,0px,auto;
+            padding-top:10px;
+        }
+        
+        .title{
+            font-size:20px;
+            border-left:4px solid rgb(28,190,133);
+            padding: 5px 0px 5px 8px;
+            background-color:rgb(245,245,245);
+        }
+        
+        .descript{
+            text-align:right;
+            font-size:14px;
+            color:rgb(100,100,100);
+        }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <h3 class="title">{{name}}</h3>
+        </div>
+        
+        <div>
+            <p class="descript">类型:{{type}}</p>
+        </div>
+        
+        <div align="center">
+            <img src="{{img}}"></img>
+        </div>
+        
+        <div>
+            <h2>主营</h2>
+            <p class="message">{{business}}</p>
+        </div>
+        
+        <div>
+            <h2>地址</h2>
+            <p class="message">{{address}}</p>
+        </div>
+        
+        <div>
+            <h2>联系电话</h2>
+            <p class="message">{{tel}}</p>
+        </div>
+        
+    </body>
+</html>

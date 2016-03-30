@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FoodListCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="173" height="193"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="173" height="193"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNo-Zb-Ig8">
+                        <rect key="frame" x="0.0" y="153" width="173" height="40"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="fA0-mn-wTh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Nd-29-JJU">
+                        <rect key="frame" x="0.0" y="0.0" width="173" height="153"/>
+                        <animations/>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstItem="hNo-Zb-Ig8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1ow-rq-4B1"/>
+                <constraint firstItem="3Nd-29-JJU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7Om-x6-kXf"/>
+                <constraint firstAttribute="trailing" secondItem="hNo-Zb-Ig8" secondAttribute="trailing" id="Pge-Gt-VzP"/>
+                <constraint firstAttribute="trailing" secondItem="3Nd-29-JJU" secondAttribute="trailing" id="S74-sI-FP8"/>
+                <constraint firstAttribute="bottom" secondItem="3Nd-29-JJU" secondAttribute="bottom" constant="40" id="VkR-QI-D7G"/>
+                <constraint firstAttribute="bottom" secondItem="hNo-Zb-Ig8" secondAttribute="bottom" id="ZgB-EG-x4M"/>
+                <constraint firstItem="3Nd-29-JJU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fFr-4v-wab"/>
+            </constraints>
+            <size key="customSize" width="173" height="193"/>
+            <connections>
+                <outlet property="iconView" destination="3Nd-29-JJU" id="AP7-m1-AaF"/>
+                <outlet property="nameLabel" destination="hNo-Zb-Ig8" id="Uep-Bk-EV9"/>
+            </connections>
+            <point key="canvasLocation" x="183.5" y="336.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

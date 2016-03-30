@@ -1,0 +1,30 @@
+//
+//  EasyHealth.pch
+//  easyHealthy
+//
+//  Created by 王睿 on 15/11/26.
+//  Copyright © 2015年 easyHealthTeam. All rights reserved.
+//
+
+#ifndef EasyHealth_pch
+#define EasyHealth_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//==第三方宏
+#import "3rdLibsDefine.h"
+
+//==接口宏
+#import "ApisDefine.h"
+
+//==工具宏
+#import "ToolsDefine.h"
+
+//==尺寸宏
+#import "SizeDefine.h"
+
+//==账号相关
+#import "AccountManager.h"
+
+#endif /* EasyHealth_pch */
